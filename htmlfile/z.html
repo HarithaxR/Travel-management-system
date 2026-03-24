@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Our Products</title>
+        <link rel="stylesheet" href="zcss.css">
+    </head>
+    <body>
+        <header>
+            <h1>Our Products</h1>
+        </header>
+        <table>
+        <tr><th><img src="https://th.bing.com/th/id/OIP.ZES7WZi8LlO9FTNWkAaZPQAAAA?rs=1&pid=ImgDetMain"></th><h2 class="wodress2">Red frock with cream flower pattern<br>550rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.ffxGsTgTSN6gU49gF-o4HAHaHa?w=201&h=201&c=7&r=0&o=5&dpr=1.3&pid=1.7"></th><h2 class="kid">Red frock for kids<br>150rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.bHaqEwFZDTmGp8m_PS8UewHaJ4?w=194&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7"></th><h2 class="wodress">Peachpuff frock for girls<br>450rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.jfuLK9xPmmW4yPjfDC2IxgAAAA?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"></th><h2 class="casual">Maroon western wear<br>800rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.Cx4NgXnTaaQ5RonMzf05yQHaLG?w=194&h=291&c=7&r=0&o=5&dpr=1.3&pid=1.7"></th><h2 class="party">Green Party wear<br>1000rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.zCIst8nNmsU4P4bSfob-JAHaIM?w=194&h=214&c=7&r=0&o=5&dpr=1.3&pid=1.7"></th><h2 class="saree">Golden-Maroon saree<br>1200rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.tcgomZJewf7M3viQBr7YEQHaJ4?w=194&h=259&c=7&r=0&o=5&dpr=1.3&pid=1.7"></th><h2 class="pant">Casual grey jeans<br>220rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.o_TrLHTl4IViZpQ67--b3wHaHO?w=205&h=199&c=7&r=0&o=5&dpr=1.3&pid=1.7"></th><h2 class="tshirt">Blue T-shirt<br>225rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.vAM3wppVAAgLxsRgN59UkAHaHa?rs=1&pid=ImgDetMain"></th><h2 class="kid2">Blue frock for kids<br>150rs</h2></tr><!-- comment -->
+        <tr><th><img src="https://th.bing.com/th/id/OIP.yNaa5gL15s1tKej1GRtnfwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7"><br></th><h2 class="black">Black Shirt<br>400rs</h2></tr>
+        </table>
+        <form>
+            <select id="nav" onchange="a()">
+                <option>Filter</option>
+                <option value="az">A-Z</option><!-- comment -->
+                <option value="za">Z-A</option>
+                <option value="desc">Descending by cost</option><!-- comment -->
+                <option value="asc">Ascending by cost</option><!-- comment -->
+            </select>
+        </form>
+        <script>
+            function a(){
+                var selectelement=document.getElementById("nav").value;
+                if(selectelement=="az")
+                {
+                    window.location.href="a.html";
+                }
+                else if(selectelement=="za")
+                {
+                    window.location.href="z.html"
+                }
+                else if(selectelement=="desc"){
+                    window.location.href="desc.html"
+                }
+                else{
+                    window.location.href="asc.html"
+                }
+            }
+        </script>
+        <form>
+            <a href="catalog.html"><input type="button" value="HOME"></a>
+        </form>
+    </body>
+</html>

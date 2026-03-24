@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+table,tr{
+    width:100%;
+    border: 2px solid white;
+}
+th{
+    background-color:blue;
+    color: white;
+    border: 2px solid white;
+}
+body{
+    background-image:linear-gradient(to bottom right,pink,violet,blueviolet);
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+th:hover{
+        background-color:blueviolet;
+}
+h2{
+    font-size: 1cm;
+    font-family: cursive;
+    color: white;
+    margin-left:1cm;
+    margin-right: 1cm;
+    text-align: center;
+}
+h1{
+    font-size: 2cm;
+     font-family: "Brush Script MT", cursive;
+     background-image:linear-gradient(to bottom,violet,chocolate);
+    color: white;
+    text-align: center;
+}

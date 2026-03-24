@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(to bottom right,pink,violet,blueviolet);
+}
+h1{
+    background-image:linear-gradient(to bottom,violet,chocolate);
+    font-size: 3cm;
+    text-align: center;
+    color:white;
+    padding: 0.3cm;
+    border:5px double transparent;
+    border-image:linear-gradient(to bottom,red,blue) 1;
+    font-family: "Brush Script MT", cursive;
+    
+}
+marquee{
+    background-color:peachpuff;
+}
+table,tr{
+    width:100%;
+    border: 2px solid white;
+}
+th{
+    background-color:blue;
+    color: white;
+    border: 2px solid white;
+}
+h2{
+    font-size: 1cm;
+    font-family: cursive;
+    color: white;
+    margin-left:1cm;
+    margin-right: 1cm;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+th:hover{
+        background-color:blueviolet;
+}

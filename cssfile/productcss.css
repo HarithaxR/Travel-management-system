@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+body{
+     background-image:linear-gradient(to bottom right,greenyellow,blueviolet,white);
+}
+h1{
+    font-family: cursive;
+    font-size: 2cm;
+    color: white;
+    text-align: center;
+}
+table{
+    width:35%;
+    height:50%;
+    position: relative;
+    right:-12.1cm;
+    border-spacing: 1.5cm;
+    top:-15cm;
+    z-index: -1;
+}
+th,tr{
+    height:10cm;
+    background-color: white;
+    z-index: -1;
+}
+img{
+    width:70%;
+    height:66%;
+    position: relative;
+    top:-1.5cm;
+}
+.black{
+    text-align: center;
+    position: relative;
+    bottom: -8cm;
+    z-index:2;
+}
+.wodress{
+    text-align: center;
+    position: relative;
+    bottom: -18cm;
+    z-index:2;
+}
+.wodress2{
+    text-align: center;
+    position: relative;
+    bottom: -28cm;
+    z-index:2;
+}
+.pant{
+    text-align: center;
+    position: relative;
+    bottom: -38cm;
+    z-index:2;
+}
+.kid{
+    text-align: center;
+    position: relative;
+    bottom: -48cm;
+    z-index:2;
+}
+.kid2{
+    text-align: center;
+    position: relative;
+    bottom: -58cm;
+    z-index:2;
+}
+.party{
+    text-align: center;
+    position: relative;
+    bottom: -68cm;
+    z-index:2;
+}
+.casual{
+    text-align: center;
+    position: relative;
+    bottom: -78cm;
+    z-index:2;
+}
+.saree{
+    text-align: center;
+    position: relative;
+    bottom: -88cm;
+    z-index:2;
+}
+.tshirt{
+    text-align: center;
+    position: relative;
+    bottom: -98cm;
+    z-index:2;
+}
+select{
+    width:20%;
+    height:1cm;
+    position: relative;
+    top:-129.8cm;
+    right:-27cm;
+}
+input{
+    background-image:linear-gradient(to bottom right,violet,blue);
+    color: white;
+    position: relative;
+    top:-130.5cm;
+    right: -1cm;
+    height:2cm;
+    width:3cm;
+    font-size: 0.7cm;
+    font-family: cursive;
+}
+input:hover{
+        background-image:linear-gradient(to bottom right,violet,white);
+}
